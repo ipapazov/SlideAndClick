@@ -7,12 +7,12 @@
 //
 
 #import "SlideAndClickAppDelegate.h"
-@class MyViewContoller;
+@class MyViewController;
 
 @interface SlideAndClickAppDelegate_iPhone : SlideAndClickAppDelegate{
-    MyViewContoller *myViewController;
+    MyViewController *myViewController;
 }
 
-@property (nonatomic, retain) MyViewContoller *myViewController;
+@property (nonatomic, retain) MyViewController *myViewController;
 @end
 
