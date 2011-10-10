@@ -32,7 +32,7 @@
 - (void)loadView
 {
     [super loadView];
-    NSLog(@"In loadView method");
+    //NSLog(@"In loadView method");
     
     //Create mainView
     UIView *mainView ;
