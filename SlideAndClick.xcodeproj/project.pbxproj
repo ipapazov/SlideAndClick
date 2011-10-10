@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7882A63214429C4F0067D2F6 /* MyViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 7882A63014429C4F0067D2F6 /* MyViewContoller.m */; };
+		7882A63314429C4F0067D2F6 /* MyViewContoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7882A63114429C4F0067D2F6 /* MyViewContoller.xib */; };
 		78A49D7A14421A4B00AE196B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A49D7914421A4B00AE196B /* UIKit.framework */; };
 		78A49D7C14421A4B00AE196B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A49D7B14421A4B00AE196B /* Foundation.framework */; };
 		78A49D7E14421A4B00AE196B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A49D7D14421A4B00AE196B /* CoreGraphics.framework */; };
@@ -37,25 +39,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7882A62F14429C4F0067D2F6 /* MyViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewContoller.h; sourceTree = "<group>"; };
+		7882A63014429C4F0067D2F6 /* MyViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewContoller.m; sourceTree = "<group>"; };
+		7882A63114429C4F0067D2F6 /* MyViewContoller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewContoller.xib; sourceTree = "<group>"; };
 		78A49D7514421A4B00AE196B /* SlideAndClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideAndClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A49D7914421A4B00AE196B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78A49D7B14421A4B00AE196B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78A49D7D14421A4B00AE196B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		78A49D8114421A4B00AE196B /* SlideAndClick-Info.plist */ = {isa = PBXFileReference; path = "SlideAndClick-Info.plist"; sourceTree = "<group>"; };
+		78A49D8114421A4B00AE196B /* SlideAndClick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideAndClick-Info.plist"; sourceTree = "<group>"; };
 		78A49D8314421A4B00AE196B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78A49D8514421A4B00AE196B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78A49D8714421A4B00AE196B /* SlideAndClick-Prefix.pch */ = {isa = PBXFileReference; path = "SlideAndClick-Prefix.pch"; sourceTree = "<group>"; };
-		78A49D8814421A4B00AE196B /* SlideAndClickAppDelegate.h */ = {isa = PBXFileReference; path = SlideAndClickAppDelegate.h; sourceTree = "<group>"; };
+		78A49D8714421A4B00AE196B /* SlideAndClick-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideAndClick-Prefix.pch"; sourceTree = "<group>"; };
+		78A49D8814421A4B00AE196B /* SlideAndClickAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideAndClickAppDelegate.h; sourceTree = "<group>"; };
 		78A49D8914421A4B00AE196B /* SlideAndClickAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideAndClickAppDelegate.m; sourceTree = "<group>"; };
-		78A49D8C14421A4B00AE196B /* SlideAndClickAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = SlideAndClickAppDelegate_iPhone.h; path = iPhone/SlideAndClickAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		78A49D8C14421A4B00AE196B /* SlideAndClickAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SlideAndClickAppDelegate_iPhone.h; path = iPhone/SlideAndClickAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		78A49D8D14421A4B00AE196B /* SlideAndClickAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SlideAndClickAppDelegate_iPhone.m; path = iPhone/SlideAndClickAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		78A49D9014421A4B00AE196B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		78A49D9314421A4B00AE196B /* SlideAndClickAppDelegate_iPad.h */ = {isa = PBXFileReference; name = SlideAndClickAppDelegate_iPad.h; path = iPad/SlideAndClickAppDelegate_iPad.h; sourceTree = "<group>"; };
+		78A49D9314421A4B00AE196B /* SlideAndClickAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SlideAndClickAppDelegate_iPad.h; path = iPad/SlideAndClickAppDelegate_iPad.h; sourceTree = "<group>"; };
 		78A49D9414421A4B00AE196B /* SlideAndClickAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SlideAndClickAppDelegate_iPad.m; path = iPad/SlideAndClickAppDelegate_iPad.m; sourceTree = "<group>"; };
 		78A49D9714421A4B00AE196B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		78A49D9E14421A4B00AE196B /* SlideAndClickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideAndClickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A49D9F14421A4B00AE196B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		78A49DA814421A4C00AE196B /* SlideAndClickTests-Info.plist */ = {isa = PBXFileReference; path = "SlideAndClickTests-Info.plist"; sourceTree = "<group>"; };
+		78A49DA814421A4C00AE196B /* SlideAndClickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideAndClickTests-Info.plist"; sourceTree = "<group>"; };
 		78A49DAA14421A4C00AE196B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78A49DAC14421A4C00AE196B /* SlideAndClickTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideAndClickTests.h; sourceTree = "<group>"; };
 		78A49DAE14421A4C00AE196B /* SlideAndClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideAndClickTests.m; sourceTree = "<group>"; };
@@ -142,8 +147,11 @@
 		78A49D8B14421A4B00AE196B /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				7882A62F14429C4F0067D2F6 /* MyViewContoller.h */,
 				78A49D8C14421A4B00AE196B /* SlideAndClickAppDelegate_iPhone.h */,
 				78A49D8D14421A4B00AE196B /* SlideAndClickAppDelegate_iPhone.m */,
+				7882A63014429C4F0067D2F6 /* MyViewContoller.m */,
+				7882A63114429C4F0067D2F6 /* MyViewContoller.xib */,
 				78A49D8F14421A4B00AE196B /* MainWindow_iPhone.xib */,
 			);
 			name = iPhone;
@@ -251,6 +259,7 @@
 				78A49D8414421A4B00AE196B /* InfoPlist.strings in Resources */,
 				78A49D9114421A4B00AE196B /* MainWindow_iPhone.xib in Resources */,
 				78A49D9814421A4B00AE196B /* MainWindow_iPad.xib in Resources */,
+				7882A63314429C4F0067D2F6 /* MyViewContoller.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +299,7 @@
 				78A49D8A14421A4B00AE196B /* SlideAndClickAppDelegate.m in Sources */,
 				78A49D8E14421A4B00AE196B /* SlideAndClickAppDelegate_iPhone.m in Sources */,
 				78A49D9514421A4B00AE196B /* SlideAndClickAppDelegate_iPad.m in Sources */,
+				7882A63214429C4F0067D2F6 /* MyViewContoller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlideAndClick/SlideAndClick-Prefix.pch";
 				INFOPLIST_FILE = "SlideAndClick/SlideAndClick-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -409,6 +420,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlideAndClick/SlideAndClick-Prefix.pch";
 				INFOPLIST_FILE = "SlideAndClick/SlideAndClick-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -467,6 +479,7 @@
 				78A49DB414421A4C00AE196B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78A49DB514421A4C00AE196B /* Build configuration list for PBXNativeTarget "SlideAndClickTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +488,7 @@
 				78A49DB714421A4C00AE196B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

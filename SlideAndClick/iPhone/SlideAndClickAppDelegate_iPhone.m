@@ -7,7 +7,25 @@
 //
 
 #import "SlideAndClickAppDelegate_iPhone.h"
+#import "MyViewContoller.h"
 
 @implementation SlideAndClickAppDelegate_iPhone
+@synthesize myViewController=_myViewController;
 
+- (void)dealloc{
+    [_myViewController dealloc];
+    [super dealloc];
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    
+    MyViewContoller *aViewController = [[MyViewContoller alloc]init];
+    self.myViewController = aViewController;
+    self.window.rootViewController = self.myViewController;
+    [self.window makeKeyAndVisible];
+    
+    [aViewController release];
+    return YES;
+}
 @end

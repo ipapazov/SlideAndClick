@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SlideAndClickAppDelegate : NSObject <UIApplicationDelegate>
+@interface SlideAndClickAppDelegate : NSObject <UIApplicationDelegate>{
+    
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
