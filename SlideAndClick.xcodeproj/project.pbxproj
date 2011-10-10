@@ -11,6 +11,7 @@
 		7882A63314429C4F0067D2F6 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7882A63114429C4F0067D2F6 /* MyViewController.xib */; };
 		788533BE144319B9002ED0E2 /* MyViewController_IPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 788533BC144319B9002ED0E2 /* MyViewController_IPad.m */; };
 		788533BF144319B9002ED0E2 /* MyViewController_IPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 788533BD144319B9002ED0E2 /* MyViewController_IPad.xib */; };
+		788533C11443205B002ED0E2 /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 788533C01443205B002ED0E2 /* buttons.png */; };
 		78A49D7A14421A4B00AE196B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A49D7914421A4B00AE196B /* UIKit.framework */; };
 		78A49D7C14421A4B00AE196B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A49D7B14421A4B00AE196B /* Foundation.framework */; };
 		78A49D7E14421A4B00AE196B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A49D7D14421A4B00AE196B /* CoreGraphics.framework */; };
@@ -47,6 +48,7 @@
 		788533BB144319B9002ED0E2 /* MyViewController_IPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController_IPad.h; sourceTree = "<group>"; };
 		788533BC144319B9002ED0E2 /* MyViewController_IPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController_IPad.m; sourceTree = "<group>"; };
 		788533BD144319B9002ED0E2 /* MyViewController_IPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController_IPad.xib; sourceTree = "<group>"; };
+		788533C01443205B002ED0E2 /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttons.png; path = SlideAndClick/buttons.png; sourceTree = "<group>"; };
 		78A49D7514421A4B00AE196B /* SlideAndClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideAndClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A49D7914421A4B00AE196B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78A49D7B14421A4B00AE196B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -99,6 +101,7 @@
 		78A49D6A14421A4B00AE196B = {
 			isa = PBXGroup;
 			children = (
+				788533C01443205B002ED0E2 /* buttons.png */,
 				78A49D7F14421A4B00AE196B /* SlideAndClick */,
 				78A49DA614421A4C00AE196B /* SlideAndClickTests */,
 				78A49D7814421A4B00AE196B /* Frameworks */,
@@ -269,6 +272,7 @@
 				78A49D9814421A4B00AE196B /* MainWindow_iPad.xib in Resources */,
 				7882A63314429C4F0067D2F6 /* MyViewController.xib in Resources */,
 				788533BF144319B9002ED0E2 /* MyViewController_IPad.xib in Resources */,
+				788533C11443205B002ED0E2 /* buttons.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
