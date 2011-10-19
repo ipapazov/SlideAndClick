@@ -11,6 +11,7 @@
 @implementation MyViewController
 @synthesize colors;
 @synthesize myLabel;
+@synthesize mainView;
 
 - (void)dealloc{
     [colors dealloc];
@@ -35,9 +36,8 @@
     //NSLog(@"In loadView method");
     
     //Create mainView
-    UIView *mainView ;
-    mainView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame];
-    mainView.backgroundColor = [UIColor lightGrayColor];
+    self.mainView = [[[UIView alloc] initWithFrame:[UIScreen mainScreen].applicationFrame]autorelease];
+    self.mainView.backgroundColor = [UIColor lightGrayColor];
     self.view = mainView;
     
     //Create UILabel
@@ -53,6 +53,7 @@
     //Create UIScrollView
     UIScrollView *myScroll = [[UIScrollView alloc] initWithFrame:CGRectMake(0,0,320,400)];
     myScroll.contentSize = CGSizeMake(1600,400);
+    //move the screen one page in the direction of scrolling
     myScroll.pagingEnabled = YES;
     [mainView addSubview:myScroll];
     [myScroll release];
@@ -78,11 +79,13 @@
  //NSLog(@"Touched button with tag %d:", [sender tag]);
 
  //Just so we have the right page number    
- int page = [sender tag]+1;
+UIButton *button = (UIButton *)sender;
+int page = [sender tag]+1;
      
  //Update the UILabel's text and background color    
  myLabel.text = [NSString stringWithFormat:@"Page %d", page];
- myLabel.backgroundColor = [self.colors objectAtIndex:[sender tag]];
+ //myLabel.backgroundColor = [self.colors objectAtIndex:[sender tag]];
+ myLabel.backgroundColor = [self.colors objectAtIndex:[button tag]];
  }
 
 @end

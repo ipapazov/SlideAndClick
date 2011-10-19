@@ -16,5 +16,6 @@
 //Properties for class MyViewControllers
 @property (nonatomic, retain) NSArray *colors;
 @property (nonatomic, retain) UILabel *myLabel; 
+@property (nonatomic, retain) UIView *mainView; 
 
 @end
